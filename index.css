@@ -2,12 +2,12 @@
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<link rel="stylesheet" href="/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
 body {
-  background-color: WhiteSmoke;
-  margin:0;
+  background-image: url("pretty_colors.jpg");
 }
 
 .topnav {
@@ -43,6 +43,7 @@ h1 {
 
 .topnav {
     text-align: center;
+    font-family: "Abel"
 }
 
 .IG {
