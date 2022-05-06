@@ -6,18 +6,19 @@
 <style>
 
 body {
-  background-color: White;
+    background-color: White;
 }
 
 h1 {
-  color: Black;
-  text-align: center;
-  font-family: 'Abel';font-size: 40px;
+    background-color: DodgerBlue;
+    color: White;
+    text-align: center;
+    font-family: 'Abel';font-size: 40px;
 }
 
 h3 {
     color: Black;
-    text-align: left;
+    text-align: center;
     font-family: "Abel";font-size: 30px;
 }
 
