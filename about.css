@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
+body {
+  background-color: WhiteSmoke;
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+  font-family: 'Abel';font-size: 40px;
+}
+
+h3 {
+    color: Black;
+    text-align: left;
+    font-family: "Abel";font-size: 30px;
+}
+
+p {
+   color: Black;
+    text-align: left;
+    font-family: "Abel";font-size: 20px
+}
+
+ul {
+    color: Black;
+    text-align: left;
+    font-family: "Abel";font-size: 20px
+}
+
+#Code_Block {
+  font-family: "Abel";font-size: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#Code_Block td, #Code_Block th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Code_Block th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: DodgerBlue;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<h1>About</h1>
+<h3>Introduction</h3>
+
+  <div class='container'>
+    <hr class="beautiful-line">
+  </div>
+
+<p>My name is Yuli and I'm a sophomore here at the <a href="https://missouri.edu/">University of Missouri</a> studying <b>Information Technology</b>! Some things that I do for the university are:
+</p>
+
+<ul>
+<li> Working as an IT consultant (and soon as a Tiger Tech Employee) </li>
+<li> Resident Advisor </li>
+</ul>
+
+<p>
+In my free time I enjoy hanging out with my friends, going out to enjoy the outdoors, playing piano, and <i>learning more about the things I enjoy!</i>
+As of recently, I've been going down to a local software company, <a href="https://quarkworks.co/">Quarkworks</a>, to learn how to do UX/UI design which has been such an awesome opportunity. When I'm <b>NOT</b> doing something crazy, I'm probably chilling at home during a vacation with my cat, Hammy (aka the <b>LOML</b>).
+</p>
+
+<p>Fortunately, I've been really enjoying learning how to code and improving my comprehension in other tech related subjects. Pictured below is an example of my code from this year!
+</p>
+
+<table id="Code_Block">
+    <tr>
+        <th>Code Block: GradeBook</th>
+    </tr>
+    <td><p>gradebook = [[61, 74, 69, 62, 72, 66, 73, 65, 60, 63, 69, 63, 62, 61, 64],
+             [73, 80, 78, 76, 76, 79, 75, 73, 76, 74, 77, 79, 76, 78, 72],
+             [90, 92, 93, 92, 88, 93, 90, 95, 100, 99, 100, 91, 95, 99, 96],
+             [96, 89, 94, 88, 100, 96, 93, 92, 94, 98, 90, 90, 92, 91, 94],
+             [76, 76, 82, 78, 82, 76, 84, 82, 80, 82, 76, 86, 82, 84, 78],
+             [93, 92, 89, 84, 91, 86, 84, 90, 95, 86, 88, 95, 88, 84, 89],
+             [63, 66, 55, 67, 66, 68, 66, 56, 55, 62, 59, 67, 60, 70, 67],
+             [86, 92, 93, 88, 90, 90, 91, 94, 90, 86, 93, 89, 94, 94, 92],
+             [89, 80, 81, 89, 86, 86, 85, 80, 79, 90, 83, 85, 90, 79, 80],
+             [99, 73, 86, 77, 87, 99, 71, 96, 81, 83, 71, 75, 91, 74, 72]]</p>
+<p>#Assignment Averages
+print("Assignment Averages:")
+<br>
+ass1 = [row[0] for row in gradebook]
+yum1 = sum(ass1)/len(ass1)
+print("Assignment 1: ", round(yum1, 2))
+<br>
+ass2 = [row[1] for row in gradebook]
+yum2 = sum(ass2)/len(ass2)
+print("Assignment 2: ", round(yum2, 2))
+<br>
+ass3 = [row[2] for row in gradebook]
+yum3 = sum(ass3)/len(ass3)
+print("Assignment 3: ", round(yum3, 2))
+<br>
+ass4 = [row[3] for row in gradebook]
+yum4 = sum(ass4)/len(ass4)
+print("Assignment 4: ", round(yum4, 2))
+<br>
+ass5 = [row[4] for row in gradebook]
+yum5 = sum(ass5)/len(ass5)
+print("Assignment 5: ", round(yum5, 2))
+<br>
+ass6 = [row[5] for row in gradebook]
+yum6 = sum(ass6)/len(ass6)
+print("Assignment 6: ", round(yum6, 2))
+<br>
+ass7 = [row[6] for row in gradebook]
+yum7 = sum(ass7)/len(ass7)
+print("Assignment 7: ", round(yum7, 2))
+<br>
+ass8 = [row[7] for row in gradebook]
+yum8 = sum(ass8)/len(ass8)
+print("Assignment 8: ", round(yum8, 2))
+<br>
+ass9 = [row[8] for row in gradebook]
+yum9 = sum(ass9)/len(ass9)
+print("Assignment 9: ", round(yum9, 2))
+<br>
+ass10 = [row[9] for row in gradebook]
+yum10 = sum(ass10)/len(ass10)
+print("Assignment 10: ", round(yum10, 2))
+<br>
+ass11 = [row[10] for row in gradebook]
+yum11 = sum(ass11)/len(ass11)
+print("Assignment 11: ", round(yum11, 2))
+<br>
+ass12 = [row[11] for row in gradebook]
+yum12 = sum(ass12)/len(ass1)
+print("Assignment 12: ", round(yum12, 2))
+<br>
+ass13 = [row[12] for row in gradebook]
+yum13 = sum(ass13)/len(ass13)
+print("Assignment 13: ", round(yum13, 2))
+<br>
+ass14 = [row[13] for row in gradebook]
+yum14 = sum(ass14)/len(ass14)
+print("Assignment 14: ", round(yum14, 2))
+<br>
+ass15 = [row[14] for row in gradebook]
+yum15 = sum(ass15)/len(ass15)
+print("Assignment 15: ", round(yum15, 2))
+<br>
+print("\n")
+</p>
+<p>
+#Student Averages
+print("Student Averages:")
+<br>
+student1 = gradebook[0]
+avg1 = sum(student1)/len(student1)
+print("Student 1: ", round(avg1, 2))
+<br>
+student2 = gradebook[1]
+avg2 = sum(student2)/len(student2)
+print("Student 2: ", round(avg2, 2))
+<br>
+student3 = gradebook[2]
+avg3 = sum(student3)/len(student3)
+print("Student 3: ", round(avg3, 2))
+<br>
+student4 = gradebook[3]
+avg4 = sum(student4)/len(student4)
+print("Student 4: ", round(avg4, 2))
+<br>
+student5 = gradebook[4]
+avg5 = sum(student5)/len(student5)
+print("Student 5: ", round(avg5, 2))
+<br>
+student6 = gradebook[5]
+avg6 = sum(student6)/len(student6)
+print("Student 6: ", round(avg6, 2))
+<br>
+student7 = gradebook[6]
+avg7 = sum(student7)/len(student7)
+print("Student 7: ", round(avg7, 2))
+<br>
+student8 = gradebook[7]
+avg8 = sum(student8)/len(student8)
+print("Student 8: ", round(avg8, 2))
+<br>
+student9 = gradebook[8]
+avg9 = sum(student9)/len(student9)
+print("Student 9: ", round(avg9, 2))
+<br>
+student10 = gradebook[9]
+avg10 = sum(student10)/len(student10)
+<br>
+print("Student 10: ", round(avg10, 2))
+</p>
+</td>
+  </tr>
+</table>
+
+</body>
+</html>
