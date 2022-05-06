@@ -6,7 +6,7 @@
 <style>
 
 body {
-  background-color: WhiteSmoke;
+  background-color: White;
 }
 
 h1 {
@@ -44,6 +44,8 @@ ul {
   border: 1px solid #ddd;
   padding: 8px;
 }
+
+#Code_Block tr:nth-child(even){background-color: WhiteSmoke;}
 
 #Code_Block th {
   padding-top: 12px;
