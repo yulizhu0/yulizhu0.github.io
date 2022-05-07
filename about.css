@@ -56,6 +56,31 @@ ul {
   color: white;
 }
 
+.bottom a {
+    color: White;
+    padding: 20px 20px;
+    text decoration: none;
+    font size: 17px;
+}
+
+.bottom a:link, a:visited {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom a:hover, a:active {
+  background-color: rgb(30, 144, 255, 0.5);
+}
+
+.bottom {
+    text-align: center;
+    font-family: "Abel"
+}
+
 </style>
 </head>
 <body>
@@ -210,6 +235,12 @@ print("Student 10: ", round(avg10, 2))
 </td>
   </tr>
 </table>
+
+<div class="bottom">
+    <a href="#url">Back</a>
+    <a href="#url">Home</a>
+    <a href="#url">Next</a>
+</div>
 
 </body>
 </html>
