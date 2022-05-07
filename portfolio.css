@@ -33,6 +33,10 @@ body {
     font-family: "Abel";
 }
 
+.Portfolio_Resources {
+    text-align: center;
+}
+
 h1 {
     background-color: DodgerBlue;
     color: White;
@@ -43,9 +47,12 @@ h1 {
   
 <h1>Portfolio</h1>
 
-<p><a href="https://1drv.ms/w/s!Aq7GCF2BREFEnRAkSm5Zd1C-qNza?e=MYyAKj">
-<img src="https://pic.onlinewebfonts.com/svg/img_453992.png" alt="Yuli's Resume" style="width:42px;height:42px;">
-</a>
+<div class="Portfolio_Resources"
+    <a href="https://1drv.ms/w/s!Aq7GCF2BREFEnRAkSm5Zd1C-qNza?e=MYyAKj">
+    <img src="https://pic.onlinewebfonts.com/svg/img_453992.png" alt="Yuli's Resume" style="width: 25%; height: 25%;">
+    <a href="https://github.com/yulizhu0">
+    <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="Yuli's Github" style="width: 25%; height: 25%;">
+    </a>
  
 </p>
   
