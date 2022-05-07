@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<style>
 
+body {
+    background-color: White;
+}
+
+h1 {
+    background-color: DodgerBlue;
+    color: White;
+    text-align: center;
+    font-family: 'Abel';font-size: 40px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.bottom a {
+    color: White;
+    padding: 20px 20px;
+    text decoration: none;
+    font-size: 17px;
+}
+
+.bottom a:link, a:visited {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom a:hover, a:active {
+  background-color: rgb(30, 144, 255, 0.5);
+}
+
+.bottom {
+    text-align: center;
+    font-family: "Abel";
+}
+
+.figma {
+    
+}
+
+p {
+    font-family: "Abel";
+    font-size: 18px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Purpose</h1>
+
+<p>What I want to do with my coding and tech experience is to help improve <b>the accessibility of technology</b>. That's why I became interested in UI/UX design! At Quarkworks, I'm learning how to use <b>Figma</b> in order to understand the design process! That's also why I decided to pursue a B.S. in IT!</p>
+
+<div class="logo">
+    <img src="http://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png" alt="Figma Logo" width= 30% height= 30%>
+</div>
+
+<p>Hopefully by the time I graduate, I'll be a full-fledged <b>Product Designer</b> with the help of mentors and my tech comprehension.</p>
+
+<div class="bottom">
+    <a href="#url">Back</a>
+    <a href="#url">Home</a>
+    <a href="#url">Next</a>
+</div>
+
+</body>
+</html>
