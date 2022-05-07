@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<style>
 
+body {
+    background-color: White;
+}
+
+.bottom a {
+    color: White;
+    padding: 20px 20px;
+    text decoration: none;
+    font-size: 17px;
+}
+
+.bottom a:link, a:visited {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom a:hover, a:active {
+  background-color: rgb(30, 144, 255, 0.5);
+}
+
+.bottom {
+    text-align: center;
+    font-family: "Abel";
+}
+
+h1 {
+    background-color: DodgerBlue;
+    color: White;
+    text-align: center;
+    font-family: 'Abel';font-size: 40px;
+
+</style>
+  
+<h1>Portfolio</h1>
+
+<p><a href="https://1drv.ms/w/s!Aq7GCF2BREFEnRAkSm5Zd1C-qNza?e=MYyAKj">
+<img src="https://pic.onlinewebfonts.com/svg/img_453992.png" alt="Yuli's Resume" style="width:42px;height:42px;">
+</a>
+ 
+</p>
+  
+<div class="bottom">
+    <a href="#url">Back</a>
+    <a href="#url">Home</a>
+    <a href="#url">Next</a>
+</div>
+ 
+</body>
+</html>
