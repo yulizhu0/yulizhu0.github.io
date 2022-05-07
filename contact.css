@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<style>
 
+body {
+    background-color: White;
+}
+
+.bottom a {
+    color: White;
+    padding: 20px 20px;
+    text decoration: none;
+    font-size: 17px;
+}
+
+.bottom a:link, a:visited {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bottom a:hover, a:active {
+  background-color: rgb(30, 144, 255, 0.5);
+}
+
+.bottom {
+    text-align: center;
+    font-family: "Abel";
+}
+
+.Portfolio_Resources {
+    text-align: center;
+}
+
+h1 {
+    background-color: DodgerBlue;
+    color: White;
+    text-align: center;
+    font-family: "Abel"; font-size: 40px;
+}
+
+.Port_Info {
+    font-family: "Abel"; font_size: 40px;
+    text-align: center;
+    color: DodgerBlue;
+    background-color:; 
+}
+
+</style>
+  
+<h1>Portfolio</h1>
+
+<div class="Portfolio_Resources">
+    <img src="https://cdn.onlinewebfonts.com/svg/img_476460.png" alt="Yuli's Phone Number" style="width: 25%; height: 25%;">
+    <img src="https://cdn.onlinewebfonts.com/svg/img_102228.png" alt="Yuli's Email" style="width: 25%; height: 25%;">
+</div>
+
+<div class="Port_Info">
+    <p>p: +1 (816) 888-1151 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: yzp94@umsystem.edu</p>
+</div>
+ 
+<div class="bottom">
+    <a href="#url">Back</a>
+    <a href="#url">Home</a>
+</div>
+ 
+</body>
+</html>
